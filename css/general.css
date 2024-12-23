@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.main{
+
+   widht:100%;
+   
+    background-color: rgb(25, 24, 25);
+    background-size:cover;
+    background-position: center;
+}
+
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.logo{
+    height:40px;
+    width:40px;
+    padding-left:60px;
+    padding-top:20px;
+    border-radius:8px;
+    box-shadow: 3px 3px 10px rgb(125, 27, 125);
+    transition:ease-in-out 0.15s;
+}
+
+.logo:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgb(141, 49, 141);
+}
+
+.title-div{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    padding-left:20px;
+    flex-shrink:0;
+}
+.title{
+    padding-top:20px;
+    padding-left:20px;
+    font-family: 'Playfair Display', serif;
+    color:white;
+    font-size:30px;
+}
+
+.left{
+    padding-top:20px;
+    width:440;
+    margin-left:26px;
+    float:left;
+    flex:1;
+}
+ul{
+    display:flex;
+    justify-content:left;
+    align-items:center;
+   
+    padding-left:30px;
+    
+}
+
+ul li{
+    list-style:none;
+    padding-left:40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:rgb(189, 187, 187);
+    font-size: 18px;
+}
+
+ul li a{
+    display:inline-block;
+    transition:ease-in-out 0.15s;
+}
+
+ul li a:hover{
+    cursor:pointer;
+    color:aliceblue;
+    font-size:20px;
+}
+
+.right{
+    margin-top:20px;
+    height:30px;
+    width: 340px;
+    
+    display:flex;
+    justify-content: right;
+    align-items:center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:rgb(189, 187, 187);
+    font-size: 18px;
+    flex:1;
+    
+}
+
+.login{
+    padding-left:40px;
+}
+.sign, .login{
+    transition:ease-in-out 0.15s;
+    display:inline-block;
+}
+
+.login:hover, .sign:hover{
+    cursor:pointer;
+    color:aliceblue;
+}
+.intro{
+    padding-bottom:6px;
+ }
+
+.intro-txt{
+    font-family: 'Inter', sans-serif;
+    color:white;
+    padding-left:60px;
+    padding-top:50px;
+}
+
+.hi{
+    font-family: 'Inter', sans-serif;
+    color:white;
+    font-size:18px;
+    font-style:italic;
+    padding-top:10px;
+    padding-left:60px;
+    color:rgb(189, 187, 187);
+}
